@@ -1,0 +1,13 @@
+// progama que calcula el perimetro y el area de un rectangulo
+Proceso areayperimetro 
+	Escribir " DIGITE LA LONGITUD DEL LADO HORIZONTAL DEL RECTANGULO"
+	LEER BASE
+	Escribir "."
+	Escribir "DIGITE LA LOGITTUD DEL LADO VERTICAL DEL RECTANGULO"
+	Leer altura 
+	Escribir "."
+	RESULTADO = ( base  * altura )  
+	Escribir " si el rectangulo de base " , base , " y de altura " , altura , " tiene un area de " , RESULTADO
+	RESULTADO = 2 * ( base + altura)
+	Escribir " si el resctangulo " , base , " y de altura " , altura , " tiene un triangulo de " RESULTADO
+	FinProceso
