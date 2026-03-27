@@ -1,0 +1,19 @@
+Algoritmo edad
+	// en una empresa , se dede calcular el valor a pagar a un eemplaado 
+	// la empresa paga a travez de las siguientes condiciones 
+	// si gana mas o igual a 1 millon, debe pagarsele con un recargo del 20%
+	// si gana menos de 1 millon, debe pagarsele con un recargo el 10%
+	Escribir " programa de pago a un empleado"
+	Escribir " bienvenido "
+	Escribir "."
+	Escribir "."
+	Escribir " digite su nombre "
+	leer nombre
+	Escribir " digite su salario"
+	leer salario
+	
+	si salario >= 1000000 Entonces
+		 total= salario * 1.2
+	FinSi
+FinSi
+		
