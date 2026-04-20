@@ -1,0 +1,58 @@
+Proceso Calculadora
+ Definir opcion Como Entero
+ Definir num1, num2 Como Real
+
+Escribir "Calculadora en PSeInt"
+ Escribir "1. Suma"
+Escribir "2. Resta"
+ Escribir "3. Multiplicación"
+  Escribir "4. División"
+
+    Mientras Verdadero Hacer
+
+    Escribir "Ingrese una opción:"
+    Leer opcion
+
+  Segun opcion Hacer
+
+    1:
+        Escribir "Ingrese el primer número:"
+        Leer num1
+         Escribir "Ingrese el segundo número:"
+        Leer num2
+        Escribir num1, " + ", num2, " = ", num1 + num2
+
+    2:
+        Escribir "Ingrese el primer número:"
+         Leer num1
+        Escribir "Ingrese el segundo número:"
+         Leer num2
+        Escribir num1, " - ", num2, " = ", num1 - num2
+
+            3:
+                Escribir "Ingrese el primer número:"
+                Leer num1
+                Escribir "Ingrese el segundo número:"
+                Leer num2
+                Escribir num1, " * ", num2, " = ", num1 * num2
+
+            4:
+                Escribir "Ingrese el primer número:"
+                Leer num1
+                Escribir "Ingrese el segundo número:"
+                Leer num2
+
+                Si num2 <> 0 Entonces
+                    Escribir num1, " / ", num2, " = ", num1 / num2
+                Sino
+                    Escribir "Error: división por cero"
+                FinSi
+
+            De Otro Modo:
+                Escribir "Opción inválida"
+
+        FinSegun
+
+    FinMientras
+
+FinProceso
